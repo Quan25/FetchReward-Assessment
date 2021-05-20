@@ -25,9 +25,12 @@ aws configure list
 ```
 
 ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/10.png)
+
 13. On search, type `key` and choose `key pairs` 
 ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/14.png)
+
 14. Then, create a key pair as shown ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/15.png)
+
 15. Go back to your terminal and type 
 ```
 chmod 400 ec2-keypair.pem
