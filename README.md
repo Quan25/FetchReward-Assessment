@@ -17,4 +17,5 @@ Develop an automation program that takes a YAML configuration file as input and 
 8. Add `AmazonEC2FullAccess` for this user as shown below ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/4)
 9. Type as shown for this one ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/6)
 10. The next page should be the same as this one ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/7)
-11. 
+11. Go to terminal and enter `aws configure`, and copy and paste the credentials from step 10 ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/8)
+12. 
