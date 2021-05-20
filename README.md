@@ -11,4 +11,5 @@ Develop an automation program that takes a YAML configuration file as input and 
   ```
 4. Login to [AWS Console](https://console.aws.amazon.com/)
 5. Go to [AWS IAM](https://console.aws.amazon.com/iam/home)
-6. On left side, click on `Users` ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/2)
+6. On left side, click on `Users` and then click on `Add User` 
+![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/2)
