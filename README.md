@@ -35,7 +35,8 @@ aws configure list
 ```
 chmod 400 ec2-keypair.pem
 ```
-![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/8.png)
+![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/9.png)
+
 16. Now that we can run the python script to create ec2 instance 
 ```
 python3 createInstance.py
