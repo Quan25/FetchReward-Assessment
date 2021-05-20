@@ -23,15 +23,17 @@ Develop an automation program that takes a YAML configuration file as input and 
 ```
 aws configure list
 ```
+
 ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/10.png)
-14. On search, type `key` and choose `key pairs` ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/14.png)
-15. Then, create a key pair as shown ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/15.png)
-16. Go back to your terminal and type 
+13. On search, type `key` and choose `key pairs` 
+![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/14.png)
+14. Then, create a key pair as shown ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/15.png)
+15. Go back to your terminal and type 
 ```
 chmod 400 ec2-keypair.pem
 ```
 ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/8.png)
-17. Now that we can run the python script to create ec2 instance 
+16. Now that we can run the python script to create ec2 instance 
 ```
 python3 createInstance.py
 ```
