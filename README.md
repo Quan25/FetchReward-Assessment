@@ -6,6 +6,7 @@ Develop an automation program that takes a YAML configuration file as input and 
 2. Create an virtual environment for this project and get into it 
 
 ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/1.png)
+
 3. Install essential packages
 - boto3
   ```
@@ -14,7 +15,7 @@ Develop an automation program that takes a YAML configuration file as input and 
 4. Login to [AWS Console](https://console.aws.amazon.com/)
 5. Go to [AWS IAM](https://console.aws.amazon.com/iam/home)
 6. On left side, click on `Users` and then click on `Add User` 
-![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/2.png)
+  ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/2.png)
 7. Choose a username for the user and check `Programmatic access` ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/3.png)
 8. Add `AmazonEC2FullAccess` for this user as shown below ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/4.png)
 9. Type as shown for this one ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/6.png)
@@ -25,10 +26,10 @@ Develop an automation program that takes a YAML configuration file as input and 
 aws configure list
 ```
 
-![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/10.png)
+  ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/10.png)
 
 13. On search, type `key` and choose `key pairs` 
-![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/14.png)
+  ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/14.png)
 
 14. Then, create a key pair as shown ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/15.png)
 
@@ -36,7 +37,7 @@ aws configure list
 ```
 chmod 400 ec2-keypair.pem
 ```
-![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/9.png)
+  ![](https://github.com/Quan25/FetchReward-Assessment/blob/main/screenshots/9.png)
 
 16. Now that we can run the python script to create ec2 instance 
 ```
